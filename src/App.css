@@ -1,0 +1,82 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card-wrapper{
+  display: flex;
+}
+.card {
+  display:flex;
+  flex-shrink: 1;
+  flex-direction: column;
+  width: 300px;
+  height: 100%;
+  margin-right: 10px;
+  border: solid 2px #888;
+  border-radius: 5px;
+}
+
+.card-img {
+  width: 100%;
+}
+.card-body{
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  font-size: 20px;
+}
+.card-title{
+  font-size: 22px;
+  font-weight: 500;
+}
+.btn{
+  display: block;
+  box-sizing: border-box;
+  width: 60%;
+  height: 50px;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  color: wheat;
+  background-color: #007bff;
+  border-radius: 10px;
+}
+.btn:hover{
+  color: wheat;
+  background-color: #005bff;
+}
+.read-the-docs {
+  color: #888;
+}
